@@ -34,7 +34,7 @@ body {
 }
 
 .navbar.scrolled {
-    padding: 0.3rem 5%;
+    padding: 0.2rem 5%;
     box-shadow: 0 5px 30px rgba(0,0,0,0.1);
 }
 
@@ -670,18 +670,18 @@ html {
 @media (max-width: 768px) {
     .menu-btn {
         display: flex;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         cursor: pointer;
         z-index: 1001;
         position: relative;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .menu-btn__lines,
     .menu-btn__lines::before,
     .menu-btn__lines::after {
-        width: 30px;
+        width: 20px;
         height: 2px;
         background: var(--text-dark);
         transition: all 0.4s ease;
@@ -748,6 +748,9 @@ html {
 
     .nav-links a:hover {
         background: rgba(42, 157, 143, 0.1);
+    }
+    .logo {
+        font-size: 1.5rem;
     }
 }
 .monastery-gallery {
